@@ -4,7 +4,7 @@ Patroclus is an interpreter of a small programming language, written in Python 3
 
 <br>
 <p align="center">
-  <img src="https://github.com/FerdosiaEngine/VATA/blob/main/1.5.png?raw=true">
+  <img src="https://github.com/FerdosiaEngine/Patroclus/blob/main/Patroclus.png">
 </p>
 
 ## Current version and project content
