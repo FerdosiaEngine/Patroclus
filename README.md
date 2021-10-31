@@ -39,7 +39,7 @@ To display the code result, the file must exist and be written according to the 
 
 ## Quick start in the grammatical structure of the interpreter
 
-The order of mathematical operations is respected by the use of parentheses. Numbers are classified as integers and decimals. Different mathematical operators are: "+", "-", "*", "/", "^", "OR", "AND", ">", "<", ">=", "<=", "=", "!=".
+The order of mathematical operations is respected by the use of parentheses. Numbers are classified as integers and decimals. Different mathematical operators are: "+, -, *, /, ^, OR, AND, >, <, >=, <=, =, !=".
 
 The presence of a comma at the end of a line of code is not required. The "PRINT()" function prints the specified message to the screen. The message can be a string or a number.
 
@@ -49,7 +49,6 @@ PRINT(1 + 8 - 6)
 PRINT(7 ^ 2 / 2)
 PRINT(8 / (9 - 3))
 PRINT(5.78 + 9.23)
-PRINT(2 > 7)
 PRINT(4 <= 8)
 PRINT(19 != 22)
 ```
@@ -63,7 +62,6 @@ VAR D = "QWERTY" + "ASDF"
 VAR B = 10
 VAR A = 8
 VAR C = A + B
-PRINT(C)
 
 PRINT("Enter input: ")
 VAR X = INPUT()
@@ -73,7 +71,8 @@ PRINT("Your input: " + X)
 Below is a list of predefined functions.
 
 ```
-NULL, FALSE, TRUE, MATH_PI, PRINT, PRINT_RET, INPUT, INPUT_INT, CLEAR, CLS, IS_NUM, IS_STR, IS_LIST, IS_FUN, APPEND, POP, EXTEND, LEN, RUN.
+NULL, FALSE, TRUE, MATH_PI, PRINT, PRINT_RET, INPUT, INPUT_INT, CLEAR, CLS,
+IS_NUM, IS_STR, IS_LIST, IS_FUN, APPEND, POP, EXTEND, LEN, RUN.
 ```
 
 The concept of "LISTS" is similar to that of the python language. The structure of the "IF, ELIF, ELSE, WHILE, FOR" functions IS DIFFERENT, as follows:
